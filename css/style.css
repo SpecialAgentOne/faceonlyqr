@@ -4,7 +4,53 @@ body {
   max-width: 960px;
   padding-left: 3%;
   padding-right: 3%;
+  color: #9CA2A9;
 }
+
+.top {
+  background-color: #97BCB5 !important;
+  width: 100%;
+}
+
+.menu-main-title {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #9CA2A9;
+  font-size: 62px;
+  height: 3.5em;
+  line-height: 3.5em;
+}
+
+.main-title {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 48px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.dots_logo img{
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*
+img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+*/
 
 .service {
   display: inline;
@@ -107,36 +153,9 @@ figure {
   padding: 0;
 }
 
-img {
-  width: 200px;
-  height: 200px;
-  display: block;
-  padding-top: 55px;
-  padding-bottom: 20px;
-  margin-left: 0px;
-  margin-right: auto;
-}
 
-.menu-main-title {
-  text-align: right;
-  font-family: 'Roboto', sans-serif;
-  color: #9CA2A9;
-  font-size: 62px;
-  height: 3.5em;
-  line-height: 3.5em;
-}
 
-.main-title {
-  text-align: left;
-  font-family: 'Roboto', sans-serif;
-  color: #ffffff;
-  font-size: 48px;
-  padding-top: 1em;
-  text-transform: uppercase;
-  background-color: #97BCB5;
-  position: fixed;
-  width: 100%;
-}
+
 
 .sign {
   font-family: 'Raleway', sans-serif;
